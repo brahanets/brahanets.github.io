@@ -602,7 +602,7 @@
 			$.ajax({
 				url: 'https://formspree.io/mwkkajrd',
 				method: "POST",
-        data: {name:$("#cform").find('input[name="name"]').val(),message: $("#cform").find('textarea[name="message"]').val()},
+        data: {name:$("#cform").find('input[name="name"]').val(),_replyto:$("#cform").find('input[name="_replyto"]').val(),message: $("#cform").find('textarea[name="message"]').val()},
         dataType: "json",
 				beforeSend: function() {
 				
