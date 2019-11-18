@@ -582,6 +582,43 @@
 	});
 
 	/*
+		Validate Contact Form
+	*/
+	$('#cform').validate({
+		rules: {
+			name: {
+				required: true
+			},
+			message: {
+				required: true
+			},
+			email: {
+				required: true,
+				email: true
+			}
+		},
+		success: 'valid',
+		submitHandler: function() {
+			$.ajax({
+				url: 'https://formspree.io/mwkkajrd',
+				method: "POST",
+        data: {name:$("#cform").find('input[name="name"]').val(),message: $("#cform").find('textarea[name="message"]').val()},
+        dataType: "json",
+				beforeSend: function() {
+				
+				},
+				complete: function() {
+				
+				},
+				success: function(data) {
+					$('#cform').fadeOut();
+					$('.alert-success').delay(1000).fadeIn();
+				}
+			});
+		}
+	});
+
+	/*
 		Google Maps
 	*/
 	if($('#map').length) {
