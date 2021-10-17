@@ -877,18 +877,28 @@ section {
 .header .container h1 {
   width: 100%;
   float: left;
-  font-weight: 700;
+  font-weight: 800;
   color: #EE1B24;
   font-size: 10vw;
   line-height: 1;
 }
+
+.welcome .header .container h1 {
+  width: 100%;
+  float: left;
+  font-weight: 800;
+  color: #EE1B24;
+  font-size: 6vw;
+  line-height: 1;
+}
+
 .header .container h1 span {
   -webkit-text-stroke-width: 1px;
   transform: translateY(-35%);
   margin-left: 4%;
   display: flex;
-	color: #000000;
-	font-size: 8vw;
+	-webkit-text-stroke-color: #fff;
+	color: transparent;
 }
 .header .container .slide-btn {
   float: left;
@@ -1406,21 +1416,23 @@ header .sound .equalizer .holder {
   margin-top: 2px;
   margin-bottom: 0;
 }
-.swiper-slider .swiper-slide .slide-inner .container h1 {
+
+.welcome .swiper-slide .slide-inner .container h1 {
   width: 100%;
   float: left;
-  font-weight: 700;
+  font-weight: 800;
   color: #EE1B24;
-  font-size: 10vw;
+  font-size: 5vw;
   line-height: 1;
 }
+
 .swiper-slider .swiper-slide .slide-inner .container h1 span {
   -webkit-text-stroke-width: 1px;
   transform: translateY(-35%);
   margin-left: 4%;
   display: flex;
-  color: #000000;
-	font-size: 8vw;
+	-webkit-text-stroke-color: #fff;
+	color: transparent;
 }
 .swiper-slider .swiper-slide .slide-inner .container .slide-btn {
   float: left;
