@@ -857,6 +857,7 @@ section {
   color: #EE1B24;
   float: left;
   color: #fff;
+	font-family: "Fjalla One", sans-serif;
 }
 .header .container .tagline span:after {
 	content: "";
@@ -874,21 +875,22 @@ section {
 	margin-top: 2px;
 	margin-bottom: 0;
 }
+
 .header .container h1 {
   width: 100%;
   float: left;
   font-weight: 800;
   color: #EE1B24;
-  font-size: 10vw;
+  font-size: content: '\f3ef';vw;
   line-height: 1;
 }
 
-.welcome .header .container h1 {
+#welcome .container h1 {
   width: 100%;
   float: left;
   font-weight: 800;
   color: #EE1B24;
-  font-size: 6vw;
+  font-size:8vw;
   line-height: 1;
 }
 
@@ -897,8 +899,8 @@ section {
   transform: translateY(-35%);
   margin-left: 4%;
   display: flex;
-	-webkit-text-stroke-color: #fff;
-	color: transparent;
+	color: #F9F9F9;
+	font-size: 6vw;
 }
 .header .container .slide-btn {
   float: left;
@@ -1372,6 +1374,18 @@ header .sound .equalizer .holder {
   left: 0;
   top: 0;
 }
+
+#start .slide-inner:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: url(../images/bg-noise-main.gif);
+  opacity: 0.08;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
 .swiper-slider .swiper-slide .slide-inner:before {
   content: "";
   width: 100%;
@@ -1399,6 +1413,7 @@ header .sound .equalizer .holder {
   color: #EE1B24;
   float: left;
   color: #fff;
+	font-family: "Fjalla One", sans-serif;
 }
 .swiper-slider .swiper-slide .slide-inner .container .tagline span:after {
 	content: "";
@@ -1417,13 +1432,36 @@ header .sound .equalizer .holder {
   margin-bottom: 0;
 }
 
-.welcome .swiper-slide .slide-inner .container h1 {
+.swiper-slider .swiper-slide .slide-inner .container h1 {
+  width: 100%;
+  float: left;
+  font-weight: 800;
+  color: #EE1B24;
+  font-size: 8vw;
+  line-height: 1;
+}
+
+#start .container h1 {
   width: 100%;
   float: left;
   font-weight: 800;
   color: #EE1B24;
   font-size: 5vw;
   line-height: 1;
+	margin-bottom: 60px;
+}
+
+#start .container strong {
+	color: #F9F9F9;
+	font-weight: 800;
+}
+
+.welcome-label-item.swiper-pagination-bullet-active {
+	left:-46px;
+}
+
+.welcome-label-item.swiper-pagination-bullet-active::after {
+	right: -90px !important;
 }
 
 .swiper-slider .swiper-slide .slide-inner .container h1 span {
@@ -1431,8 +1469,8 @@ header .sound .equalizer .holder {
   transform: translateY(-35%);
   margin-left: 4%;
   display: flex;
-	-webkit-text-stroke-color: #fff;
-	color: transparent;
+	color: #F9F9F9;
+	font-size: 6vw;
 }
 .swiper-slider .swiper-slide .slide-inner .container .slide-btn {
   float: left;
@@ -1513,7 +1551,7 @@ header .sound .equalizer .holder {
 	content: attr(data-text);
 	font-size: 24vw;
 	font-weight: 800;
-	opacity: 0.06;
+	opacity: 0.04;
 	z-index: -1;
 	position: absolute;
 	left: 18%;
@@ -1571,7 +1609,7 @@ header .sound .equalizer .holder {
 .process h2:before {
   content: attr(data-text);
   font-size: 20vw;
-  opacity: 0.05;
+  opacity: 0.04;
   z-index: -1;
   transform: translateX(-50%);
   position: absolute;
@@ -1719,7 +1757,7 @@ s .process span:before {
 .works h2:before {
   content: attr(data-text);
   font-size: 24vw;
-  opacity: 0.06;
+  opacity: 0.04;
   z-index: -1;
   position: absolute;
 	left: 18%;
@@ -1900,7 +1938,7 @@ s .process span:before {
 .team h2:before {
   content: attr(data-text);
   font-size: 20vw;
-  opacity: 0.05;
+  opacity: 0.04;
   position: absolute;
   left: 0;
   top: -20%;
@@ -1982,7 +2020,7 @@ s .process span:before {
 .work-with-us h2:before {
   content: attr(data-text);
   font-size: 24vw;
-  opacity: 0.06;
+  opacity: 0.04;
   z-index: -1;
   position: absolute;
 	left: 18%;
@@ -2049,7 +2087,7 @@ s .process span:before {
 .clients h2:before {
   content: attr(data-text);
   font-size: 20vw;
-  opacity: 0.05;
+  opacity: 0.04;
   position: absolute;
   left: 0;
   top: -20%;
@@ -2303,7 +2341,7 @@ s .process span:before {
 .hello h2:before {
   content: attr(data-text);
   font-size: 20vw;
-  opacity: 0.05;
+  opacity: 0.04;
   z-index: -1;
   position: absolute;
   left: 0;
@@ -2397,7 +2435,7 @@ s .process span:before {
 .direction h2:before {
   content: attr(data-text);
   font-size: 20vw;
-  opacity: 0.05;
+  opacity: 0.04;
   z-index: -1;
   position: absolute;
   left: 0;

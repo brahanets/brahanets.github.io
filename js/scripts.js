@@ -33,7 +33,10 @@
 				el: '.swiper-pagination',
 				clickable: true,
 				renderBullet: function (index, className) {
-				  return '<span class="' + className + '">0' + (index + 1) + '</span>';
+					if (index === 0) {
+						return '<span class="' + className + ' welcome-label-item">Welcome</span>';
+					}
+				  return '<span class="' + className + '">0' + (index) + '</span>';
 				},
 			},
 			});
