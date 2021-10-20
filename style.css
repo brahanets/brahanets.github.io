@@ -1,0 +1,143 @@
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Ultralight.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Ultralight.woff") format("woff"), url("../fonts/SFProDisplay-Ultralight.ttf") format("truetype"), url("../fonts/SFProDisplay-Ultralight.svg") format("svg");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Thin.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Thin.woff") format("woff"), url("../fonts/SFProDisplay-Thin.ttf") format("truetype"), url("../fonts/SFProDisplay-Thin.svg") format("svg");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Light.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Light.woff") format("woff"), url("../fonts/SFProDisplay-Light.ttf") format("truetype"), url("../fonts/SFProDisplay-Light.svg") format("svg");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Regular.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Regular.woff") format("woff"), url("../fonts/SFProDisplay-Regular.ttf") format("truetype"), url("../fonts/SFProDisplay-Regular.svg") format("svg");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Medium.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Medium.woff") format("woff"), url("../fonts/SFProDisplay-Medium.ttf") format("truetype"), url("../fonts/SFProDisplay-Medium.svg") format("svg");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Semibold.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Semibold.woff") format("woff"), url("../fonts/SFProDisplay-Semibold.ttf") format("truetype"), url("../fonts/SFProDisplay-Semibold.svg") format("svg");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Bold.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Bold.woff") format("woff"), url("../fonts/SFProDisplay-Bold.ttf") format("truetype"), url("../fonts/SFProDisplay-Bold.svg") format("svg");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Heavy.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Heavy.woff") format("woff"), url("../fonts/SFProDisplay-Heavy.ttf") format("truetype"), url("../fonts/SFProDisplay-Heavy.svg") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco Italic';
+  src: url("../fonts/SFProDisplay-HeavyItalic.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-HeavyItalic.woff") format("woff"), url("../fonts/SFProDisplay-HeavyItalic.ttf") format("truetype"), url("../fonts/SFProDisplay-HeavyItalic.svg") format("svg");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'San Francisco';
+  src: url("../fonts/SFProDisplay-Black.eot");
+  src: local("☺"), url("../fonts/SFProDisplay-Black.woff") format("woff"), url("../fonts/SFProDisplay-Black.ttf") format("truetype"), url("../fonts/SFProDisplay-Black.svg") format("svg");
+  font-weight: 900;
+  font-style: normal;
+}
+
+body,
+html {
+  font-family: 'San Francisco', sans-serif;
+	font-weight: 800;
+	color: #ffffff;
+  cursor: default;
+  overflow: hidden;
+  margin: 0;
+}
+canvas {
+  position: absolute;
+  z-index: 0;
+  width: 100%;
+  height: 100%;
+}
+.header {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  position: absolute;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+	margin-bottom: 96px;
+}
+
+.ambient-shit {
+	position: fixed;
+	left: 0;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10000;
+	display: block;
+	overflow: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.noise {
+	z-index: 1000000000;
+	width: 100vw;
+	height: 100vh;
+	margin-left: 0;
+	opacity: .6;
+}
+
+.noise:after {
+	content: "";
+	pointer-events: none;
+	will-change: transform;
+	animation: noiseAnimation 1s steps(4) infinite;
+	background-image: url("images/bg-noise.gif");
+	width: 200%;
+	height: 200%;
+	display: block;
+	position: absolute;
+	top: -50%;
+	left: -50%;
+}
