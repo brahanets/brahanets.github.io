@@ -359,7 +359,7 @@ section {
   line-height: 26px;
   display: inline-block;
   transform: translateY(10px);
-  color: #fff;
+  color: #F9F9F9;
   font-family: "Fjalla One", sans-serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -579,7 +579,7 @@ section {
 .navigation-menu .inner {
   position: relative;
   z-index: 3;
-  color: #fff;
+  color: #F9F9F9;
   text-align: center;
   padding-top: 18px;
 }
@@ -621,7 +621,7 @@ section {
   line-height: 1;
   font-size: 3vw;
   font-weight: 800;
-  color: #fff;
+  color: #F9F9F9;
   padding-bottom: 8px;
   border-bottom: 5px solid transparent;
 }
@@ -754,7 +754,7 @@ section {
 }
 .hamburger span:before {
   z-index: 1;
-  background: #fff;
+  background: #F9F9F9;
   transition: all 0.15s linear 0s;
 }
 .hamburger span:after {
@@ -881,7 +881,7 @@ section {
 width: 0;    
 	height: 1px;
   float: left;
-  background: #fff;
+  background: #F9F9F9;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
@@ -919,14 +919,14 @@ width: 0;
 }
 .header .container .tagline {
   display: block;
-  color: #fff;
+  color: #F9F9F9;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 .header .container .tagline span {
   color: #1A27C9;
   float: left;
-  color: #fff;
+  color: #F9F9F9;
 	font-family: "Fjalla One", sans-serif;
 }
 .header .container .tagline span:after {
@@ -1080,14 +1080,46 @@ width: 0;
 .page-header .container {
   position: relative;
   z-index: 3;
-  padding: 0 10%;
 }
 .page-header .container h1 {
   font-weight: 800;
-  font-size: 10vw;
-  color: #fff;
+  font-size: 5vw;
+  color: #F9F9F9;
   line-height: 1;
   text-indent: -5px;
+}
+.page-header .container h1 span {
+  color: #1A27C9;
+}
+.page-header .container h2 {
+  font-weight: 800;
+  font-size: 4vw;
+  color: #F9F9F9;
+  line-height: 1;
+  text-indent: -5px;
+	color: #1A27C9
+}
+.page-header .container h2 span {
+	color: #F9F9F9;
+}
+.lab h3 {
+  font-weight: 500;
+  font-size: 32px;
+	line-height: 1.4;
+	margin-bottom: 24px;
+	padding-right: 18%;
+	opacity: 0.84;
+}
+.lab h3:last-child {
+	margin-bottom: 96px;
+}
+.page-header .container h3 {
+  font-weight: 600;
+  font-size: 2vw;
+  color: #F9F9F9;
+  line-height: 1.2;
+  text-indent: -5px;
+	margin-top: 36px;
 }
 .page-header .container p {
   margin-bottom: 0;
@@ -1130,7 +1162,7 @@ header .left-side ul li {
 }
 header .left-side ul li a {
   font-size: 14px;
-  color: #fff;
+  color: #F9F9F9;
   font-family: "Fjalla One", sans-serif;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
@@ -1142,7 +1174,7 @@ header .left-side ul li a {
 }
 header .left-side ul li a:hover {
   padding-bottom: 1px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #F9F9F9;
   text-decoration: none;
 }
 header .scroll-down {
@@ -1156,7 +1188,7 @@ header .scroll-down small {
   display: inline-block;
   transform: rotate(-90deg);
   margin-bottom: 50px;
-  color: #fff;
+  color: #F9F9F9;
   font-family: "Fjalla One", sans-serif;
 }
 header .scroll-down span {
@@ -1178,7 +1210,7 @@ header .scroll-down span::before {
   margin-left: -0.5px;
   width: 1px;
   height: 70px;
-  background: #fff;
+  background: #F9F9F9;
   content: "";
 }
 header .sound {
@@ -1189,7 +1221,7 @@ header .sound {
 }
 header .sound span {
   float: left;
-  color: #fff;
+  color: #F9F9F9;
   font-size: 14px;
   margin-right: 10px;
   font-family: "Fjalla One", sans-serif;
@@ -1210,7 +1242,7 @@ header .sound .equalizer .holder {
   left: 0;
   top: 0;
   padding: 20px 40px;
-  color: #fff;
+  color: #F9F9F9;
   font-family: "Fjalla One", sans-serif;
   font-size: 14px;
   z-index: 10;
@@ -1224,7 +1256,7 @@ header .sound .equalizer .holder {
   -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
 }
 .navbar a {
-  color: #fff;
+  color: #F9F9F9;
 }
 .navbar .left {
   width: 30%;
@@ -1242,7 +1274,7 @@ header .sound .equalizer .holder {
 }
 .navbar .left a:hover {
   padding-bottom: 1px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #F9F9F9;
   text-decoration: none;
 }
 
@@ -1279,7 +1311,7 @@ header .sound .equalizer .holder {
 }
 .navbar .right ul li a:hover {
   padding-bottom: 1px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #F9F9F9;
   text-decoration: none;
 }
 .navbar .right .hamburger-menu {
@@ -1324,7 +1356,7 @@ header .sound .equalizer .holder {
   flex-wrap: wrap;
   align-items: center;
   font-size: 14px;
-  color: #fff;
+  color: #F9F9F9;
 }
 
 .slide-btn a:hover {
@@ -1351,7 +1383,7 @@ header .sound .equalizer .holder {
   width: 100%;
   height: 1px;
   float: right;
-  background: #fff;
+  background: #F9F9F9;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
@@ -1363,7 +1395,7 @@ header .sound .equalizer .holder {
   width: 0;
   height: 1px;
   float: left;
-  background: #fff;
+  background: #F9F9F9;
   -webkit-transition: 0.25s ease-in-out;
   -moz-transition: 0.25s ease-in-out;
   -ms-transition: 0.25s ease-in-out;
@@ -1410,7 +1442,7 @@ header .sound .equalizer .holder {
   position: absolute;
   left: 0;
   top: 0;
-  color: #fff;
+  color: #F9F9F9;
   overflow: hidden;
 }
 .swiper-slider .swiper-slide {
@@ -1493,14 +1525,14 @@ header .sound .equalizer .holder {
 }
 .swiper-slider .swiper-slide .slide-inner .container .tagline {
   display: block;
-  color: #fff;
+  color: #F9F9F9;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
 .swiper-slider .swiper-slide .slide-inner .container .tagline span {
   color: #1A27C9;
   float: left;
-  color: #fff;
+  color: #F9F9F9;
 	font-family: "Fjalla One", sans-serif;
 }
 .swiper-slider .swiper-slide .slide-inner .container .tagline span:after {
@@ -1749,7 +1781,7 @@ header .sound .equalizer .holder {
   display: inline-block;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: #F9F9F9;
   border-radius: 50%;
   background: #1A27C9;
   position: relative;
@@ -1773,7 +1805,7 @@ s .process span:before {
   width: 100%;
   display: block;
   margin: 20px 0;
-  background: #fff;
+  background: #F9F9F9;
 }
 .process figure img {
   height: 90px;
@@ -1792,7 +1824,7 @@ s .process span:before {
   flex-wrap: wrap;
   padding: 240px 0;
   background: url(../images/bg-lines.png) center;
-  color: #fff;
+  color: #F9F9F9;
   position: relative;
 }
 .services-content-block .video-bg {
@@ -1999,7 +2031,24 @@ s .process span:before {
   font-weight: 800;
   font-size: 60px;
   line-height: 1.2;
-  padding-right: 35%;
+  padding-right: 24%;
+}
+.page-header h2 a {
+	color: #f9f9f9;
+	-webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -ms-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
+		text-decoration: underline;
+}
+.page-header h2 a:hover {
+	color: #1A27C9;
+	-webkit-transition: 0.25s ease-in-out;
+    -moz-transition: 0.25s ease-in-out;
+    -ms-transition: 0.25s ease-in-out;
+    -o-transition: 0.25s ease-in-out;
+    transition: 0.25s ease-in-out;
 }
 .works-single h4 {
   margin-top: 5px;
@@ -2008,6 +2057,9 @@ s .process span:before {
   line-height: 40px;
   text-transform: uppercase;
   padding-right: 20%;
+}
+.stack h4 {
+	margin-bottom: 48px;
 }
 .works-single .text-desc {
   margin-bottom: 50px;
@@ -2261,7 +2313,7 @@ s .process span:before {
 }
 .clients ul li img {
   opacity: 1;
-  background: #fff;
+  background: #F9F9F9;
   border: 1px solid #eee;
   padding: 15px;
 }
@@ -2370,7 +2422,7 @@ s .process span:before {
   line-height: 44px;
   float: left;
   background: #1A27C9;
-  color: #fff;
+  color: #F9F9F9;
   border: none;
   border-radius: 0;
 }
@@ -2500,7 +2552,7 @@ s .process span:before {
   display: flex;
   margin-left: -100px;
   padding: 40px 20px;
-  background: #fff;
+  background: #F9F9F9;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
 }
 .hello #contact .form-group:last-child {
@@ -2518,21 +2570,21 @@ s .process span:before {
 }
 .hello #contact div.error {
   background: #1A27C9;
-  color: #fff;
+  color: #F9F9F9;
   border-radius: 0;
   border: none;
 }
 .hello #contact input[type=text] {
   width: 100%;
   height: 50px;
-  background: #fff;
+  background: #F9F9F9;
   border: 1px solid #eee;
   padding: 0 20px;
 }
 .hello #contact textarea {
   width: 100%;
   height: 150px;
-  background: #fff;
+  background: #F9F9F9;
   border: 1px solid #eee;
   padding: 20px;
 }
@@ -2601,16 +2653,16 @@ s .process span:before {
 .direction figure figcaption .inner {
   width: 100%;
   padding: 40px;
-  color: #fff;
+  color: #F9F9F9;
 }
 .direction figure figcaption .inner .custom-link {
   margin-top: 40px;
 }
 .direction figure figcaption .inner .custom-link a {
-  color: #fff;
+  color: #F9F9F9;
 }
 .direction figure figcaption .inner .custom-link .lines span {
-  background: #fff;
+  background: #F9F9F9;
 }
 .direction figure figcaption .inner h5 {
   font-family: "Fjalla One", sans-serif;
@@ -2643,7 +2695,7 @@ s .process span:before {
   flex-direction: column;
   padding: 100px 0;
   background: #000000;
-  color: #fff;
+  color: #F9F9F9;
 }
 .footer .footer-quote {
   width: 100%;
@@ -2678,7 +2730,15 @@ h2 #white {
   margin-bottom: 0;
 }
 .footer .footer-contact address a {
-  color: #fff;
+  color: #F9F9F9;
+  text-decoration: underline;
+}
+.hellopage .container address {
+	margin-top: 60px;
+	font-size: 24px;
+}
+.hellopage .container address a {
+  color: #F9F9F9;
   text-decoration: underline;
 }
 .footer .footer-bottom {
@@ -2709,7 +2769,7 @@ h2 #white {
 }
 .footer .footer-bottom ul li a {
   position: relative;
-  color: #fff;
+  color: #F9F9F9;
   font-size: 14px;
   font-weight: 600;
   padding-bottom: 6px;
@@ -2722,7 +2782,7 @@ h2 #white {
 }
 .footer .footer-bottom ul li a:hover {
   padding-bottom: 1px;
-  border-bottom: 2px solid #fff;
+  border-bottom: 2px solid #F9F9F9;
   text-decoration: none;
 }
 
