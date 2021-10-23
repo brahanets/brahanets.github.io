@@ -1365,6 +1365,9 @@ header .sound .equalizer .holder {
 
 .slide-btn b {
   font-weight: 600;
+	background-color: #1A27C9;
+  padding: 0 12px 0;
+  line-height: 1;
 }
 
 .slide-btn .lines {
