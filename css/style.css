@@ -1032,7 +1032,6 @@ width: 0;
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../images/bg-lines.png) center;
   z-index: 2;
 }
 .header .video-bg video {
@@ -1068,7 +1067,6 @@ width: 0;
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../images/bg-lines.png) center;
   z-index: 2;
 }
 .page-header .video-bg video {
@@ -1516,7 +1514,6 @@ header .sound .equalizer .holder {
   position: absolute;
   left: 0;
   top: 0;
-  background: url(../images/bg-lines.png) center;
   z-index: 1;
 }
 .swiper-slider .swiper-slide .slide-inner .container {
@@ -1826,7 +1823,6 @@ s .process span:before {
   display: flex;
   flex-wrap: wrap;
   padding: 240px 0;
-  background: url(../images/bg-lines.png) center;
   color: #F9F9F9;
   position: relative;
 }
@@ -2187,7 +2183,6 @@ s .process span:before {
 	position: absolute;
 	left: 0;
 	top: 0;
-	background: url(../images/bg-lines.png) center;
 	z-index: 1;
 }
 .work-with-us .container {
